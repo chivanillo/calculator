@@ -1,0 +1,39 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "The Calculator App by Jose Ruiz Ruiz",
+  "homepage": "https://chivanillo.github.io/calculator",
+  "scripts": {
+    "deploy": "npm run build && gh-pages -b gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chivanillo/calculator.git"
+  },
+  "author": "Jose Ruiz Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chivanillo/calculator/issues"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
